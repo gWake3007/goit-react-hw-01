@@ -21,7 +21,7 @@ function App() {
         name="Serhii"
         phone={777}
         email="qwerty@qwerty.com"
-        // addtess="motel"
+        // address="motel"
       />
     </div>
   );
@@ -30,7 +30,7 @@ function App() {
 export default App;
 
 // function App() {
-//   console.log("userts: >>", users);
+//   console.log("users: >>", users);
 //   return (
 //     <div>
 //       <Card

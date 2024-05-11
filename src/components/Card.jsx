@@ -5,8 +5,8 @@ const Card = ({ name, email, phone }) => {
         <h2>{name}</h2>
         <hr />
         <div>
-          {email ? <p>email:{email}</p> : false}
-          <p>phone:{phone}</p>
+          {email ? <p>Email:{email}</p> : false}
+          {phone && <p>Phone:{phone}</p>}
           {/* <p>addres:{street}</p> */}
         </div>
       </div>
