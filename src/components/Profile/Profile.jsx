@@ -4,7 +4,13 @@ const Profile = ({ name, tag, location, image, followers, views, likes }) => {
   return (
     <div className={css.profile}>
       <div className={css.card}>
-        <img className={css.img} src={image} alt="User avatar" />
+        <img
+          className={css.img}
+          src={image}
+          alt="User avatar"
+          width={200}
+          height={200}
+        />
         <p className={css.name}>{name}</p>
         <p className={css.tag}>{tag}</p>
         <p className={css.location}>{location}</p>

@@ -1,6 +1,7 @@
 import "./App.css";
 import user from "./userData.json";
 import Profile from "./components/Profile/Profile.jsx";
+import FriendList from "./components/FriendList/FriendList.jsx";
 
 const {
   username,
@@ -22,6 +23,7 @@ const App = () => {
         views={views}
         likes={likes}
       />
+      <FriendList />
     </>
   );
 };
