@@ -2,6 +2,7 @@ import "./App.css";
 import user from "./userData.json";
 import Profile from "./components/Profile/Profile.jsx";
 import FriendList from "./components/FriendList/FriendList.jsx";
+// import TransactionHistory from "./components/TransactionHistory/TransactionHistory.jsx";
 
 const {
   username,
@@ -24,6 +25,7 @@ const App = () => {
         likes={likes}
       />
       <FriendList />
+      {/* <TransactionHistory /> */}
     </>
   );
 };

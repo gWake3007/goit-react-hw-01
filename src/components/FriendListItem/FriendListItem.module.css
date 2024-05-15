@@ -5,16 +5,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: calc(540px / 5);
+  padding: 10px;
 }
 
-/* .friendImg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .friendName {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .online {
