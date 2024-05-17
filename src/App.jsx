@@ -1,5 +1,7 @@
 import "./App.css";
 import user from "./userData.json";
+import transactions from "./transactions.json";
+import friends from "./friends.json";
 import Profile from "./components/Profile/Profile.jsx";
 import FriendList from "./components/FriendList/FriendList.jsx";
 import TransactionHistory from "./components/TransactionHistory/TransactionHistory.jsx";
@@ -24,9 +26,9 @@ const App = () => {
         views={views}
         likes={likes}
       />
-      <FriendList />
+      <FriendList friends={friends} />
 
-      <TransactionHistory />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
